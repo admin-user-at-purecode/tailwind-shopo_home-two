@@ -1,7 +1,7 @@
-import HomeTwo from "./components/HomeTwo";
+import Home from "./components/Home";
 
 function App() {
-  return <HomeTwo />;
+  return <Home />;
 }
 
 export default App;

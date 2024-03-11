@@ -16,7 +16,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
@@ -52,7 +52,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
@@ -88,7 +88,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
@@ -124,7 +124,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
@@ -160,7 +160,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
@@ -196,7 +196,7 @@ export default function Cart({ className, type }) {
                     <img
                       src={`${
                         import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/product-img-1.jpg`}
+                      }/src/assets/images/product-img-1.jpg`}
                       alt=""
                       className="w-full h-full object-contain"
                     />
