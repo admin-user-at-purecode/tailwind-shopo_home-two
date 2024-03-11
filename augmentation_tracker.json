@@ -112,6 +112,11 @@
           "location": "center part of the page, bottom of the Banner cards",
           "description": "a flex container"
         },
+        "categories-section-wrapper w-full": {
+          "count": 16,
+          "location": "center part of the page, bottom of the Banner cards",
+          "description": "a flex container"
+        },
 
         "Featured Products": {
           "count": 2,
@@ -206,5 +211,7 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "added extra CategoriesSection inside homepage"
+  ]
 }

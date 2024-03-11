@@ -20,6 +20,7 @@ export default function HomeTwo() {
         categoryTitle="My Market Category"
       >
         <CategoriesSection />
+        <CategoriesSection />
       </ViewMoreTitle>
       <SectionStyleThreeHomeTwo
         products={products}
