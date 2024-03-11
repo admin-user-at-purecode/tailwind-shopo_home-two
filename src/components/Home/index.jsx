@@ -7,20 +7,12 @@ import ViewMoreTitle from "../ViewMoreTitle";
 import ProductsAds from "./ProductsAds";
 import Banner from "./Banner";
 import CampaignCountDown from "./CampaignCountDown";
-import CategoriesSection from "./CategoriesSection";
 
 export default function HomeTwo() {
   const { products } = datas;
   return (
     <Layout>
       <Banner className="banner-wrapper mb-[46px]" />
-      <ViewMoreTitle
-        className="my-categories mb-[60px]"
-        seeMoreUrl="/all-products"
-        categoryTitle="My Market Category"
-      >
-        <CategoriesSection />
-      </ViewMoreTitle>
       <SectionStyleThreeHomeTwo
         products={products}
         showProducts={6}
