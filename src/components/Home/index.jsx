@@ -21,13 +21,6 @@ export default function HomeTwo() {
       >
         <CategoriesSection />
       </ViewMoreTitle>
-      <SectionStyleThreeHomeTwo
-        products={products}
-        showProducts={6}
-        sectionTitle="Featured Products"
-        seeMoreUrl="/all-products"
-        className="new-products mb-[60px]"
-      />
       <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ProductsAds
         ads={[

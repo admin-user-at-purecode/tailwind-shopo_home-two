@@ -113,19 +113,6 @@
           "description": "a flex container"
         },
 
-        "Featured Products": {
-          "count": 2,
-          "location": "full width of the Featured products bottom of the CategoriesSection",
-          "description": "a flex container",
-          "children": {
-            "SectionStyleThreeHomeTwo": {
-              "count": 6,
-              "location": "center part of the page, bottom of the CategoriesSection",
-              "description": "a grid container"
-            }
-          }
-        },
-
         "CampaignCountDown": {
           "count": 2,
           "location": "bottom of the brandsection",
@@ -206,5 +193,7 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "deleted SectionStyleThreeHomeTwo from home"
+  ]
 }
