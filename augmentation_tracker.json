@@ -10,7 +10,6 @@
     "SelectBox",
     "Navbar",
     "Drawer",
-    "Banner",
     "BestSeller",
     "BrandSection",
     "CategoryCard",
@@ -102,11 +101,6 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
-          "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
-        },
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -206,5 +200,5 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["deleted banner from homepage"]
 }
