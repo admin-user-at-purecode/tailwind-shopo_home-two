@@ -50,6 +50,7 @@ export default function HomeTwo() {
         categoryTitle="Top Selling Products"
       >
         <SectionStyleTwo products={products.slice(3, products.length)} />
+        <SectionStyleTwo products={products.slice(3, products.length)} />
       </ViewMoreTitle>
       <ProductsAds
         ads={[
