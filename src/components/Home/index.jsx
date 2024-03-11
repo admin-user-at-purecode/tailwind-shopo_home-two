@@ -29,6 +29,7 @@ export default function HomeTwo() {
         className="new-products mb-[60px]"
       />
       <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
+      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.2.png`,

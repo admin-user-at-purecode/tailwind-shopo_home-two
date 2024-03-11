@@ -131,6 +131,11 @@
           "location": "bottom of the brandsection",
           "description": "a text heading inside card"
         },
+        "mb-[60px]": {
+          "count": 2,
+          "location": "bottom of the brandsection",
+          "description": "a text heading inside card"
+        },
         "ProductsAds": {
           "count": 2,
           "location": "center part of the page, below the CampaignCountDown",
@@ -206,5 +211,7 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "added mb-[60px] below the CampaignCountDown"
+  ]
 }
