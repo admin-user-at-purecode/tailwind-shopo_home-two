@@ -149,6 +149,18 @@
             }
           }
         },
+        "Popular Sales1": {
+          "count": 2,
+          "location": "Bottom of the productAds",
+          "description": "a flex container",
+          "children": {
+            "SectionStyleThreeHomeTwo": {
+              "count": 4,
+              "location": "center part of the page, bottom of the popularsales",
+              "description": "a grid container"
+            }
+          }
+        },
 
         "Top Selling Products": {
           "count": 4,
@@ -206,5 +218,7 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "Popular Sales1 added below the popularSales"
+  ]
 }
