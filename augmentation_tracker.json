@@ -112,7 +112,6 @@
           "location": "center part of the page, bottom of the Banner cards",
           "description": "a flex container"
         },
-
         "Featured Products": {
           "count": 2,
           "location": "full width of the Featured products bottom of the CategoriesSection",
@@ -125,7 +124,6 @@
             }
           }
         },
-
         "CampaignCountDown": {
           "count": 2,
           "location": "bottom of the brandsection",
@@ -136,7 +134,6 @@
           "location": "center part of the page, below the CampaignCountDown",
           "description": "a flex container"
         },
-
         "Popular Sales": {
           "count": 2,
           "location": "Bottom of the productAds",
@@ -149,13 +146,11 @@
             }
           }
         },
-
         "products-ads-section": {
           "count": 1,
           "location": "center part of the page, bottom of the top selling products",
           "description": "a image"
         },
-
         "NewArrivals": {
           "count": 2,
           "location": "below the product-ads-section",
@@ -168,7 +163,6 @@
             }
           }
         },
-
         "popularSales": {
           "count": 2,
           "location": "below the SectionStyleThreeHomeTwo",
@@ -178,7 +172,6 @@
             "description": "a grid container"
           }
         },
-
         "discountbanner": {
           "count": 1,
           "location": "below the popular sales",
