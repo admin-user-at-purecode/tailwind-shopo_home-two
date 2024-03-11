@@ -37,13 +37,7 @@ export default function HomeTwo() {
         sectionHeight="sm:h-[290px] h-full"
         className="products-ads-section mb-[60px]"
       />
-      <SectionStyleThreeHomeTwo
-        products={products.slice(3, 7)}
-        showProducts={3}
-        sectionTitle="Popular Sales"
-        seeMoreUrl="/all-products"
-        className="feature-products mb-[60px]"
-      />
+
       <ViewMoreTitle
         className="top-selling-product mb-[60px]"
         seeMoreUrl="/all-products"
