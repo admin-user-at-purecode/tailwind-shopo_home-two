@@ -77,6 +77,12 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="category-products mb-[60px]"
       />
+      <SectionStyleFour
+        products={products}
+        sectionTitle="Popular Sales"
+        seeMoreUrl="/all-products"
+        className="category-products mb-[60px]"
+      />
     </Layout>
   );
 }

@@ -192,6 +192,15 @@
           "description": "a grid container"
         }
       },
+      "popularSales1": {
+        "count": 2,
+        "location": "below the popular sales",
+        "SectionStyleFour": {
+          "count": 12,
+          "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
+          "description": "a grid container"
+        }
+      },
 
       "discountbanner": {
         "count": 1,
@@ -206,5 +215,5 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["added popularSales1] at the bottom"]
 }
