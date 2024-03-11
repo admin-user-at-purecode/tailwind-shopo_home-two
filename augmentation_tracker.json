@@ -107,6 +107,11 @@
           "location": "bottom of the navbar",
           "description": "banner cards and a text with flex container"
         },
+        "banner-wrapper1 mb-[46px]": {
+          "count": 2,
+          "location": "bottom of the Banner",
+          "description": "banner cards and a text with flex container"
+        },
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -206,5 +211,7 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "added banner-wrapper1 mb-[46px] below bannercards"
+  ]
 }

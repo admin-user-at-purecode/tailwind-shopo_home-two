@@ -14,6 +14,7 @@ export default function HomeTwo() {
   return (
     <Layout>
       <Banner className="banner-wrapper mb-[46px]" />
+      <Banner className="banner-wrapper1 mb-[46px]" />
       <ViewMoreTitle
         className="my-categories mb-[60px]"
         seeMoreUrl="/all-products"
