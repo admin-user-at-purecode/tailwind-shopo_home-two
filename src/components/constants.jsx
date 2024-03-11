@@ -75,6 +75,7 @@ export const productLayoutsMenuItems = [
   { name: "Gallery Thumbnail" },
   { name: "Sticky Summary" },
 ];
+
 export const popularCategoriesMenuItems = [
   { name: "Phone & Tablet" },
   { name: "Gaming & Sports" },
