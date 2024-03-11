@@ -6,7 +6,6 @@ import SectionStyleTwo from "../SectionStyleTwoHomeTwo";
 import ViewMoreTitle from "../ViewMoreTitle";
 import ProductsAds from "./ProductsAds";
 import Banner from "./Banner";
-import CampaignCountDown from "./CampaignCountDown";
 import CategoriesSection from "./CategoriesSection";
 
 export default function HomeTwo() {
@@ -28,7 +27,6 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.2.png`,
