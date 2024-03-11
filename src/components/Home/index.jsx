@@ -57,13 +57,6 @@ export default function HomeTwo() {
         ]}
         className="products-ads-section mb-[60px]"
       />
-      <SectionStyleThreeHomeTwo
-        products={products.reverse().slice(0, 10)}
-        showProducts={9}
-        sectionTitle="New Arrivals"
-        seeMoreUrl="/all-products"
-        className="new-arrivals mb-[60px]"
-      />
       <ProductsAds
         sectionHeight="164"
         ads={[

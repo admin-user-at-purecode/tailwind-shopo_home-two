@@ -170,19 +170,6 @@
         "description": "a image"
       },
 
-      "NewArrivals": {
-        "count": 2,
-        "location": "below the product-ads-section",
-        "description": "a flex container",
-        "children": {
-          "SectionStyleThreeHomeTwo": {
-            "count": 9,
-            "location": "below the product-ads-section",
-            "description": "a grid container"
-          }
-        }
-      },
-
       "popularSales": {
         "count": 2,
         "location": "below the SectionStyleThreeHomeTwo",
@@ -206,5 +193,5 @@
     "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["NewArrivals is deleted from home"]
 }
