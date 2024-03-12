@@ -102,11 +102,12 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
+        "ProductsAds": {
           "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
+          "location": "center part of the page, below the Navbar",
+          "description": "a flex container"
         },
+
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -131,10 +132,10 @@
           "location": "bottom of the brandsection",
           "description": "a text heading inside card"
         },
-        "ProductsAds": {
+        "Banner": {
           "count": 2,
-          "location": "center part of the page, below the CampaignCountDown",
-          "description": "a flex container"
+          "location": "bottom of the CampaignCountDown",
+          "description": "banner cards and a text with flex container"
         },
 
         "Popular Sales": {
@@ -206,5 +207,5 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Banner is swapped with productAds"]
 }
