@@ -15,6 +15,7 @@ export default function LayoutHomeTwo({ children, childrenClasses }) {
           {children && children}
         </div>
         <DiscountBanner />
+        <DiscountBanner />
         <Footer />
       </div>
     </>
