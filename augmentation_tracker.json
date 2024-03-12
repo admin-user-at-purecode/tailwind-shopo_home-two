@@ -124,16 +124,15 @@
               "description": "a grid container"
             }
           },
-
-          "CampaignCountDown": {
-            "count": 2,
-            "location": "bottom of the brandsection",
-            "description": "a text heading inside card"
-          },
           "ProductsAds": {
             "count": 2,
-            "location": "center part of the page, below the CampaignCountDown",
+            "location": "center part of the page, below the Featured Products",
             "description": "a flex container"
+          },
+          "CampaignCountDown": {
+            "count": 2,
+            "location": "Bottom of the productAds",
+            "description": "a text heading inside card"
           },
 
           "Popular Sales": {
@@ -206,5 +205,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "CampaignCountDown swapped with productAds"
+  ]
 }
