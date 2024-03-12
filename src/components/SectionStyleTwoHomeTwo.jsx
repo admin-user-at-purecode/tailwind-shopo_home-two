@@ -8,7 +8,14 @@ export default function SectionStyleTwoHomeTwo({ className, products }) {
         className || ""
       }`}
     >
-      <DataIteration datas={products} startLength={0} endLength={9}>
+      <DataIteration datas={products} startLength={0} endLength={4}>
+        {({ datas }) => (
+          <div key={datas.id} className="item w-full">
+            <ProductCardRowStyleOneTwo datas={datas} />
+          </div>
+        )}
+      </DataIteration>
+      <DataIteration datas={products} startLength={0} endLength={4}>
         {({ datas }) => (
           <div key={datas.id} className="item w-full">
             <ProductCardRowStyleOneTwo datas={datas} />
