@@ -13,7 +13,13 @@ export default function HomeTwo() {
   const { products } = datas;
   return (
     <Layout>
-      <Banner className="banner-wrapper mb-[46px]" />
+      <ViewMoreTitle
+        className="top-selling-product mb-[60px]"
+        seeMoreUrl="/all-products"
+        categoryTitle="Top Selling Products"
+      >
+        <SectionStyleTwo products={products.slice(3, products.length)} />
+      </ViewMoreTitle>
       <ViewMoreTitle
         className="my-categories mb-[60px]"
         seeMoreUrl="/all-products"
@@ -37,6 +43,7 @@ export default function HomeTwo() {
         sectionHeight="sm:h-[290px] h-full"
         className="products-ads-section mb-[60px]"
       />
+
       <SectionStyleThreeHomeTwo
         products={products.slice(3, 7)}
         showProducts={3}
@@ -44,13 +51,8 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="feature-products mb-[60px]"
       />
-      <ViewMoreTitle
-        className="top-selling-product mb-[60px]"
-        seeMoreUrl="/all-products"
-        categoryTitle="Top Selling Products"
-      >
-        <SectionStyleTwo products={products.slice(3, products.length)} />
-      </ViewMoreTitle>
+      <Banner className="banner-wrapper mb-[46px]" />
+
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.3.png`,
