@@ -13,7 +13,12 @@ export default function HomeTwo() {
   const { products } = datas;
   return (
     <Layout>
-      <Banner className="banner-wrapper mb-[46px]" />
+      <SectionStyleFour
+        products={products}
+        sectionTitle="Popular Sales"
+        seeMoreUrl="/all-products"
+        className="category-products mb-[60px]"
+      />
       <ViewMoreTitle
         className="my-categories mb-[60px]"
         seeMoreUrl="/all-products"
@@ -71,12 +76,7 @@ export default function HomeTwo() {
         ]}
         className="products-ads-section mb-[60px]"
       />
-      <SectionStyleFour
-        products={products}
-        sectionTitle="Popular Sales"
-        seeMoreUrl="/all-products"
-        className="category-products mb-[60px]"
-      />
+      <Banner className="banner-wrapper mb-[46px]" />
     </Layout>
   );
 }
