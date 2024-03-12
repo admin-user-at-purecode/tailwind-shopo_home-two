@@ -102,17 +102,16 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
-          "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
-        },
         "CategoriesSection": {
           "count": 16,
-          "location": "center part of the page, bottom of the Banner cards",
+          "location": "bottom of the navbar ",
           "description": "a flex container"
         },
-
+        "Banner": {
+          "count": 2,
+          "location": "center part of the page, bottom of the CategoriesSection",
+          "description": "banner cards and a text with flex container"
+        },
         "Featured Products": {
           "count": 2,
           "location": "full width of the Featured products bottom of the CategoriesSection",
@@ -206,5 +205,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "Banner is swapped with CategoriesSection"
+  ]
 }

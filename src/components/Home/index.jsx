@@ -13,7 +13,6 @@ export default function HomeTwo() {
   const { products } = datas;
   return (
     <Layout>
-      <Banner className="banner-wrapper mb-[46px]" />
       <ViewMoreTitle
         className="my-categories mb-[60px]"
         seeMoreUrl="/all-products"
@@ -21,6 +20,7 @@ export default function HomeTwo() {
       >
         <CategoriesSection />
       </ViewMoreTitle>
+      <Banner className="banner-wrapper mb-[46px]" />
       <SectionStyleThreeHomeTwo
         products={products}
         showProducts={6}
