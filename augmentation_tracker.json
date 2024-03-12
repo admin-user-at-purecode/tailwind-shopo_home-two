@@ -102,11 +102,16 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
+        "popularSales": {
           "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
+          "location": "below the Navbar",
+          "SectionStyleFour": {
+            "count": 12,
+            "location": "center part of the page, bottom of the popularsales",
+            "description": "a grid container"
+          }
         },
+
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -183,14 +188,10 @@
         }
       },
 
-      "popularSales": {
+      "Banner": {
         "count": 2,
-        "location": "below the SectionStyleThreeHomeTwo",
-        "SectionStyleFour": {
-          "count": 12,
-          "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
-          "description": "a grid container"
-        }
+        "location": "bottom of the NewArrivals section",
+        "description": "banner cards and a text with flex container"
       },
 
       "discountbanner": {
@@ -206,5 +207,5 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Banner is swapped with Popular Sales"]
 }
