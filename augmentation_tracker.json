@@ -112,24 +112,24 @@
           "location": "center part of the page, bottom of the Banner cards",
           "description": "a flex container"
         },
+        "CampaignCountDown": {
+          "count": 2,
+          "location": "center part of the page, bottom of the CategoriesSection",
+          "description": "a text heading inside card"
+        },
 
         "Featured Products": {
           "count": 2,
-          "location": "full width of the Featured products bottom of the CategoriesSection",
+          "location": "full width of the Featured products bottom of the campaigncountdown",
           "description": "a flex container",
           "children": {
             "SectionStyleThreeHomeTwo": {
               "count": 6,
-              "location": "center part of the page, bottom of the CategoriesSection",
+              "location": "center part of the page, bottom of the campaigncountdown",
               "description": "a grid container"
             }
           },
 
-          "CampaignCountDown": {
-            "count": 2,
-            "location": "bottom of the brandsection",
-            "description": "a text heading inside card"
-          },
           "ProductsAds": {
             "count": 2,
             "location": "center part of the page, below the CampaignCountDown",
@@ -206,5 +206,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "Featured Products swapped with CampaignCountDown"
+  ]
 }

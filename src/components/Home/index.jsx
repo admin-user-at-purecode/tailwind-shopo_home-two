@@ -21,6 +21,7 @@ export default function HomeTwo() {
       >
         <CategoriesSection />
       </ViewMoreTitle>
+      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <SectionStyleThreeHomeTwo
         products={products}
         showProducts={6}
@@ -28,7 +29,6 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.2.png`,
