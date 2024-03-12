@@ -71,6 +71,13 @@ export default function HomeTwo() {
         ]}
         className="products-ads-section mb-[60px]"
       />
+      <ProductsAds
+        sectionHeight="164"
+        ads={[
+          `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.4.png`,
+        ]}
+        className="products-ads-section mb-[60px]"
+      />
       <SectionStyleFour
         products={products}
         sectionTitle="Popular Sales"
