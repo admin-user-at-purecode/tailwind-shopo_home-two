@@ -102,11 +102,19 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
+        "NewArrivals": {
           "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
+          "location": "below the navabr",
+          "description": "a flex container",
+          "children": {
+            "SectionStyleThreeHomeTwo": {
+              "count": 9,
+              "location": "below the navbar",
+              "description": "a grid container"
+            }
+          }
         },
+
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -123,80 +131,73 @@
               "location": "center part of the page, bottom of the CategoriesSection",
               "description": "a grid container"
             }
-          }
-        },
+          },
 
-        "CampaignCountDown": {
-          "count": 2,
-          "location": "bottom of the brandsection",
-          "description": "a text heading inside card"
-        },
-        "ProductsAds": {
-          "count": 2,
-          "location": "center part of the page, below the CampaignCountDown",
-          "description": "a flex container"
-        },
+          "CampaignCountDown": {
+            "count": 2,
+            "location": "bottom of the brandsection",
+            "description": "a text heading inside card"
+          },
+          "ProductsAds": {
+            "count": 2,
+            "location": "center part of the page, below the CampaignCountDown",
+            "description": "a flex container"
+          },
 
-        "Popular Sales": {
-          "count": 2,
-          "location": "Bottom of the productAds",
-          "description": "a flex container",
-          "children": {
-            "SectionStyleThreeHomeTwo": {
-              "count": 4,
-              "location": "center part of the page, bottom of the popularsales",
-              "description": "a grid container"
+          "Popular Sales": {
+            "count": 2,
+            "location": "Bottom of the productAds",
+            "description": "a flex container",
+            "children": {
+              "SectionStyleThreeHomeTwo": {
+                "count": 4,
+                "location": "center part of the page, bottom of the popularsales",
+                "description": "a grid container"
+              }
+            }
+          },
+
+          "Top Selling Products": {
+            "count": 4,
+            "location": "center part of the page, bottom of the popularsales",
+            "description": "a text heading and view-more-title on right",
+            "children": {
+              "SectionStyleTwo": {
+                "count": 4,
+                "location": "center part of the page, bottom of the popularsales",
+                "description": "a grid container"
+              }
             }
           }
         },
 
-        "Top Selling Products": {
-          "count": 4,
-          "location": "center part of the page, bottom of the popularsales",
-          "description": "a text heading and view-more-title on right",
-          "children": {
-            "SectionStyleTwo": {
-              "count": 4,
-              "location": "center part of the page, bottom of the popularsales",
-              "description": "a grid container"
-            }
-          }
-        }
-      },
+        "products-ads-section": {
+          "count": 1,
+          "location": "center part of the page, bottom of the top selling products",
+          "description": "a image"
+        },
 
-      "products-ads-section": {
-        "count": 1,
-        "location": "center part of the page, bottom of the top selling products",
-        "description": "a image"
-      },
+        "Banner": {
+          "count": 2,
+          "location": "bottom of the product-ads-section",
+          "description": "banner cards and a text with flex container"
+        },
 
-      "NewArrivals": {
-        "count": 2,
-        "location": "below the product-ads-section",
-        "description": "a flex container",
-        "children": {
-          "SectionStyleThreeHomeTwo": {
-            "count": 9,
-            "location": "below the product-ads-section",
+        "popularSales": {
+          "count": 2,
+          "location": "below the SectionStyleThreeHomeTwo",
+          "SectionStyleFour": {
+            "count": 12,
+            "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
             "description": "a grid container"
           }
-        }
-      },
+        },
 
-      "popularSales": {
-        "count": 2,
-        "location": "below the SectionStyleThreeHomeTwo",
-        "SectionStyleFour": {
-          "count": 12,
-          "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
-          "description": "a grid container"
+        "discountbanner": {
+          "count": 1,
+          "location": "below the popular sales",
+          "description": "a ads image with gmail address get the coupon button"
         }
-      },
-
-      "discountbanner": {
-        "count": 1,
-        "location": "below the popular sales",
-        "description": "a ads image with gmail address get the coupon button"
       }
     },
     "footer": {
@@ -206,5 +207,5 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Banner is swapped with NewArrivals"]
 }
