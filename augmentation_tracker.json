@@ -161,36 +161,36 @@
               "description": "a grid container"
             }
           }
+        },
+
+        "products-ads-section": {
+          "count": 1,
+          "location": "center part of the page, bottom of the top selling products",
+          "description": "a image"
+        },
+
+        "popularSales": {
+          "count": 2,
+          "location": "below the SectionStyleThreeHomeTwo",
+          "SectionStyleFour": {
+            "count": 12,
+            "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
+            "description": "a grid container"
+          }
+        },
+
+        "discountbanner": {
+          "count": 1,
+          "location": "below the popular sales",
+          "description": "a ads image with gmail address get the coupon button"
         }
-      },
-
-      "products-ads-section": {
-        "count": 1,
-        "location": "center part of the page, bottom of the top selling products",
-        "description": "a image"
-      },
-
-      "popularSales": {
-        "count": 2,
-        "location": "below the SectionStyleThreeHomeTwo",
-        "SectionStyleFour": {
-          "count": 12,
-          "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
-          "description": "a grid container"
-        }
-      },
-
-      "discountbanner": {
-        "count": 1,
-        "location": "below the popular sales",
-        "description": "a ads image with gmail address get the coupon button"
       }
+    },
+    "footer": {
+      "count": 1,
+      "location": "bottom of the page",
+      "description": "a footer with a flex container"
     }
-  },
-  "footer": {
-    "count": 1,
-    "location": "bottom of the page",
-    "description": "a footer with a flex container"
   },
   "sizing_updates": [".."],
   "screen_and_layout_augmentations": ["NewArrivals is deleted from home"]
