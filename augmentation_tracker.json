@@ -206,5 +206,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "added extra cards in the featured products"
+  ]
 }

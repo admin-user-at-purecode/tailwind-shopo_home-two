@@ -25,6 +25,17 @@ export default function SectionStyleThreeHomeTwo({
                 </div>
               )}
             </DataIteration>
+            <DataIteration
+              datas={products}
+              startLength={0}
+              endLength={showProducts}
+            >
+              {({ datas }) => (
+                <div data-aos="fade-up" key={datas.id} className="item">
+                  <ProductCardStyleOneTwo datas={datas} />
+                </div>
+              )}
+            </DataIteration>
           </div>
         </div>
       </ViewMoreTitle>
