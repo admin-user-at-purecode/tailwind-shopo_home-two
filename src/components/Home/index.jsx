@@ -13,7 +13,7 @@ export default function HomeTwo() {
   const { products } = datas;
   return (
     <Layout>
-      <Banner className="banner-wrapper mb-[46px]" />
+      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ViewMoreTitle
         className="my-categories mb-[60px]"
         seeMoreUrl="/all-products"
@@ -28,7 +28,7 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
+      <Banner className="banner-wrapper mb-[46px]" />
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.2.png`,

@@ -102,11 +102,12 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
+        "CampaignCountDown": {
           "count": 2,
           "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
+          "description": "a text heading inside card"
         },
+
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
@@ -126,10 +127,10 @@
           }
         },
 
-        "CampaignCountDown": {
+        "Banner": {
           "count": 2,
-          "location": "bottom of the brandsection",
-          "description": "a text heading inside card"
+          "location": "bottom of the Featred Products",
+          "description": "banner cards and a text with flex container"
         },
         "ProductsAds": {
           "count": 2,
@@ -206,5 +207,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "Banner is swapped with CampaignCountDown"
+  ]
 }
