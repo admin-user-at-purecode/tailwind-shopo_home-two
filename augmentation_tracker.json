@@ -173,8 +173,8 @@
               "description": "a grid container"
             }
           }
-        }
-      },
+        },
+      
 
       "products-ads-section": {
         "count": 1,
@@ -216,6 +216,7 @@
     "count": 1,
     "location": "bottom of the page",
     "description": "a footer with a flex container"
+  }
   },
   "sizing_updates": [".."],
   "screen_and_layout_augmentations": [
