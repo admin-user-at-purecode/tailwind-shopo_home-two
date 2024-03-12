@@ -161,8 +161,7 @@
               "description": "a grid container"
             }
           }
-        }
-      },
+        },
 
       "products-ads-section": {
         "count": 1,
@@ -203,6 +202,7 @@
         "location": "below the popular sales",
         "description": "a ads image with gmail address get the coupon button"
       }
+    }
     },
     "footer": {
       "count": 1,
