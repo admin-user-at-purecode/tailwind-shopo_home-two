@@ -14,13 +14,6 @@ export default function HomeTwo() {
   return (
     <Layout>
       <Banner className="banner-wrapper mb-[46px]" />
-      <ViewMoreTitle
-        className="my-categories mb-[60px]"
-        seeMoreUrl="/all-products"
-        categoryTitle="My Market Category"
-      >
-        <CategoriesSection />
-      </ViewMoreTitle>
       <SectionStyleThreeHomeTwo
         products={products}
         showProducts={6}
@@ -28,6 +21,13 @@ export default function HomeTwo() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
+      <ViewMoreTitle
+        className="my-categories mb-[60px]"
+        seeMoreUrl="/all-products"
+        categoryTitle="My Market Category"
+      >
+        <CategoriesSection />
+      </ViewMoreTitle>
       <CampaignCountDown className="mb-[60px]" lastDate="2023-10-04 4:00:00" />
       <ProductsAds
         ads={[

@@ -107,23 +107,22 @@
           "location": "bottom of the navbar",
           "description": "banner cards and a text with flex container"
         },
-        "CategoriesSection": {
-          "count": 16,
-          "location": "center part of the page, bottom of the Banner cards",
-          "description": "a flex container"
-        },
-
         "Featured Products": {
           "count": 2,
-          "location": "full width of the Featured products bottom of the CategoriesSection",
+          "location": "full width of the Featured products bottom of the Banner",
           "description": "a flex container",
           "children": {
             "SectionStyleThreeHomeTwo": {
               "count": 6,
-              "location": "center part of the page, bottom of the CategoriesSection",
+              "location": "center part of the page, bottom of the Banner",
               "description": "a grid container"
             }
           }
+        },
+        "CategoriesSection": {
+          "count": 16,
+          "location": "center part of the page, bottom of the Featured products",
+          "description": "a flex container"
         },
 
         "CampaignCountDown": {
@@ -161,42 +160,42 @@
               "description": "a grid container"
             }
           }
-        }
-      },
+        },
 
-      "products-ads-section": {
-        "count": 1,
-        "location": "center part of the page, bottom of the top selling products",
-        "description": "a image"
-      },
+        "products-ads-section": {
+          "count": 1,
+          "location": "center part of the page, bottom of the top selling products",
+          "description": "a image"
+        },
 
-      "NewArrivals": {
-        "count": 2,
-        "location": "below the product-ads-section",
-        "description": "a flex container",
-        "children": {
-          "SectionStyleThreeHomeTwo": {
-            "count": 9,
-            "location": "below the product-ads-section",
+        "NewArrivals": {
+          "count": 2,
+          "location": "below the product-ads-section",
+          "description": "a flex container",
+          "children": {
+            "SectionStyleThreeHomeTwo": {
+              "count": 9,
+              "location": "below the product-ads-section",
+              "description": "a grid container"
+            }
+          }
+        },
+
+        "popularSales": {
+          "count": 2,
+          "location": "below the SectionStyleThreeHomeTwo",
+          "SectionStyleFour": {
+            "count": 12,
+            "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
             "description": "a grid container"
           }
-        }
-      },
+        },
 
-      "popularSales": {
-        "count": 2,
-        "location": "below the SectionStyleThreeHomeTwo",
-        "SectionStyleFour": {
-          "count": 12,
-          "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
-          "description": "a grid container"
+        "discountbanner": {
+          "count": 1,
+          "location": "below the popular sales",
+          "description": "a ads image with gmail address get the coupon button"
         }
-      },
-
-      "discountbanner": {
-        "count": 1,
-        "location": "below the popular sales",
-        "description": "a ads image with gmail address get the coupon button"
       }
     },
     "footer": {
@@ -206,5 +205,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "CategoriesSection swapped with Featured products"
+  ]
 }
