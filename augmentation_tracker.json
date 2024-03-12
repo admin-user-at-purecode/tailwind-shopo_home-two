@@ -102,30 +102,28 @@
       "location": "bottom of the navbar",
       "description": "a container having all the sections",
       "children": {
-        "Banner": {
+        "Featured Products": {
           "count": 2,
-          "location": "bottom of the navbar",
-          "description": "banner cards and a text with flex container"
+          "location": "full width of the Featured products bottom of the Navbar",
+          "description": "a flex container",
+          "children": {
+            "SectionStyleThreeHomeTwo": {
+              "count": 6,
+              "location": "center part of the page, bottom of the Navbar",
+              "description": "a grid container"
+            }
+          }
         },
         "CategoriesSection": {
           "count": 16,
           "location": "center part of the page, bottom of the Banner cards",
           "description": "a flex container"
         },
-
-        "Featured Products": {
+        "Banner": {
           "count": 2,
-          "location": "full width of the Featured products bottom of the CategoriesSection",
-          "description": "a flex container",
-          "children": {
-            "SectionStyleThreeHomeTwo": {
-              "count": 6,
-              "location": "center part of the page, bottom of the CategoriesSection",
-              "description": "a grid container"
-            }
-          }
+          "location": "bottom of the CategoriesSection",
+          "description": "Banner cards and a text with flex container"
         },
-
         "CampaignCountDown": {
           "count": 2,
           "location": "bottom of the brandsection",
@@ -206,5 +204,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "Banner is swapped with SectionStyleThreeHomeTwo"
+  ]
 }
