@@ -28,7 +28,7 @@ export default function SectionStyleFour({
               </DataIteration>
             </div>
             <div className="item-col">
-              <DataIteration datas={products} startLength={8} endLength={12}>
+              <DataIteration datas={products} startLength={8} endLength={5}>
                 {({ datas }) => (
                   <ProductCardRowStyleTwo key={datas.id} datas={datas} />
                 )}

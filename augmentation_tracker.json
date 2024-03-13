@@ -206,5 +206,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "deleted extra cards from category-products mb-[60px]"
+  ]
 }
