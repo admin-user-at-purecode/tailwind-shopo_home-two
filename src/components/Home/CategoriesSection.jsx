@@ -164,42 +164,6 @@ export default function CategoriesSection() {
                   </p>
                 </div>
               </div>
-              <div className="item w-full group cursor-pointer">
-                <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
-                    <Sofa />
-                  </div>
-                </div>
-                <div className="w-full flex justify-center">
-                  <p className="text-base text-qblack whitespace-nowrap ">
-                    Chest Drawers
-                  </p>
-                </div>
-              </div>
-              <div className="item w-full group cursor-pointer">
-                <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
-                    <Sofa />
-                  </div>
-                </div>
-                <div className="w-full flex justify-center">
-                  <p className="text-base text-qblack whitespace-nowrap ">
-                    Windows
-                  </p>
-                </div>
-              </div>
-              <div className="item w-full group cursor-pointer">
-                <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
-                    <Sofa />
-                  </div>
-                </div>
-                <div className="w-full flex justify-center">
-                  <p className="text-base text-qblack whitespace-nowrap ">
-                    Miscellaneous
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
