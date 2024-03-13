@@ -59,7 +59,7 @@ export default function HomeTwo() {
       />
       <SectionStyleThreeHomeTwo
         products={products.reverse().slice(0, 10)}
-        showProducts={9}
+        showProducts={5}
         sectionTitle="New Arrivals"
         seeMoreUrl="/all-products"
         className="new-arrivals mb-[60px]"
