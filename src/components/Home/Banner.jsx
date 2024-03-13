@@ -24,22 +24,6 @@ export default function Banner({ className }) {
                   </picture>
                 </a>
               </div>
-              <div
-                data-aos="fade-left"
-                className="w-1/2 flex xl:flex-col flex-row  xl:space-y-[30px] h-full"
-              >
-                <div className="w-full ">
-                  <a to="/single-product">
-                    <img
-                      src={`${
-                        import.meta.env.VITE_PUBLIC_URL
-                      }/src/assets/images/banner-2.2.png`}
-                      alt=""
-                      className="w-full h-full"
-                    />
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
