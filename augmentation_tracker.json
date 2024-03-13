@@ -115,7 +115,7 @@
 
         "CampaignCountDown": {
           "count": 2,
-          "location": "bottom of the brandsection",
+          "location": "bottom of the CategoriesSection",
           "description": "a text heading inside card"
         },
         "ProductsAds": {
