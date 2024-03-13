@@ -23,7 +23,7 @@ export default function HomeTwo() {
       </ViewMoreTitle>
       <SectionStyleThreeHomeTwo
         products={products}
-        showProducts={6}
+        showProducts={3}
         sectionTitle="Featured Products"
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
