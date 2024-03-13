@@ -1,7 +1,6 @@
 import { useState } from "react";
 import DiscountBanner from "./Home/DiscountBanner";
 import Drawer from "./Drawer";
-import Footer from "./Footer";
 import Header from "./Headers";
 
 export default function LayoutHomeTwo({ children, childrenClasses }) {
@@ -15,7 +14,6 @@ export default function LayoutHomeTwo({ children, childrenClasses }) {
           {children && children}
         </div>
         <DiscountBanner />
-        <Footer />
       </div>
     </>
   );

@@ -28,8 +28,7 @@
     "SectionStyleFour",
     "SectionStyleThree",
     "SectionStyleTwo",
-    "ViewMoreTitle",
-    "Footer"
+    "ViewMoreTitle"
   ],
 
   "component_information": {
@@ -198,13 +197,8 @@
           "description": "a ads image with gmail address get the coupon button"
         }
       }
-    },
-    "footer": {
-      "count": 1,
-      "location": "bottom of the page",
-      "description": "a footer with a flex container"
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Footer is deleted from Layout"]
 }
