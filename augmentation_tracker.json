@@ -182,16 +182,6 @@
           }
         },
 
-        "popularSales": {
-          "count": 2,
-          "location": "below the SectionStyleThreeHomeTwo",
-          "SectionStyleFour": {
-            "count": 12,
-            "location": "center part of the page, bottom of the SectionStyleThreeHomeTwo",
-            "description": "a grid container"
-          }
-        },
-
         "discountbanner": {
           "count": 1,
           "location": "below the popular sales",
@@ -206,5 +196,5 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["deleted Popular Sales from Home"]
 }

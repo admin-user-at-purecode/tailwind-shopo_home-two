@@ -1,6 +1,5 @@
 import Layout from "../Layout";
 import datas from "../../data/productsTwo.json";
-import SectionStyleFour from "../SectionStyleFour";
 import SectionStyleThreeHomeTwo from "../SectionStyleThreeHomeTwo";
 import SectionStyleTwo from "../SectionStyleTwoHomeTwo";
 import ViewMoreTitle from "../ViewMoreTitle";
@@ -70,12 +69,6 @@ export default function HomeTwo() {
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.4.png`,
         ]}
         className="products-ads-section mb-[60px]"
-      />
-      <SectionStyleFour
-        products={products}
-        sectionTitle="Popular Sales"
-        seeMoreUrl="/all-products"
-        className="category-products mb-[60px]"
       />
     </Layout>
   );
