@@ -38,8 +38,8 @@ export default function HomeTwo() {
         className="products-ads-section mb-[60px]"
       />
       <SectionStyleThreeHomeTwo
-        products={products.slice(3, 7)}
-        showProducts={3}
+        products={products.slice(2, 7)}
+        showProducts={2}
         sectionTitle="Popular Sales"
         seeMoreUrl="/all-products"
         className="feature-products mb-[60px]"
