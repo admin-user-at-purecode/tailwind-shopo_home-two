@@ -32,7 +32,6 @@ export default function HomeTwo() {
       <ProductsAds
         ads={[
           `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.2.png`,
-          `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-2.1.png`,
         ]}
         sectionHeight="sm:h-[290px] h-full"
         className="products-ads-section mb-[60px]"
