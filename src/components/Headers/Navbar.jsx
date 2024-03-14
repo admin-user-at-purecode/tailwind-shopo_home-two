@@ -254,24 +254,6 @@ export default function Navbar({ className }) {
                         <Arrow className="fill-current" />
                       </span>
                     </span>
-                    <div className="sub-menu w-[220px] absolute left-0 top-[60px]">
-                      <div
-                        className="w-full bg-white flex justify-between items-center "
-                        style={{
-                          boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
-                        }}
-                      >
-                        <div className="categories-wrapper w-full h-full p-5">
-                          <div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {linkList1}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </li>
                   <li>
                     <a to="/about">

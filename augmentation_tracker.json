@@ -205,6 +205,7 @@
       "description": "a footer with a flex container"
     }
   },
+  "functionallity": ["Pages tab functionallity is removed"],
   "sizing_updates": [".."],
   "screen_and_layout_augmentations": [""]
 }
