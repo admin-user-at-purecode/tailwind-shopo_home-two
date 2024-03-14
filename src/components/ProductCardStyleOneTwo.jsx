@@ -10,7 +10,7 @@ export default function ProductCardStyleOneTwo({ datas }) {
       style={{ boxShadow: "0px 15px 64px 0px rgba(0, 0, 0, 0.05)" }}
     >
       <div
-        className="product-card-img w-full h-[322px] mt-4"
+        className="product-card-img w-full h-[500px] mt-4"
         style={{
           background: `url(${
             import.meta.env.VITE_PUBLIC_URL
