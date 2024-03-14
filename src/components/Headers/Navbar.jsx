@@ -186,66 +186,6 @@ export default function Navbar({ className }) {
                         <Arrow className="fill-current" />
                       </span>
                     </span>
-                    <div className="sub-menu w-full absolute left-0 top-[60px]">
-                      <div
-                        className="mega-menu-wrapper w-full bg-white p-[30px] flex justify-between items-center "
-                        style={{
-                          minHeight: "295px",
-                          boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
-                        }}
-                      >
-                        <div className="categories-wrapper flex-1 h-full flex justify-around -ml-[70px]">
-                          <div>
-                            <div className="category">
-                              <h1 className="text-[13px] font-700 text-qblack uppercase mb-[13px]">
-                                Shop List
-                              </h1>
-                            </div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {shopLinksList}
-                              </ul>
-                            </div>
-                          </div>
-                          <div>
-                            <div className="category">
-                              <h1 className="text-[13px] font-700 text-qblack uppercase mb-[13px]">
-                                Product Layouts
-                              </h1>
-                            </div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {linkList}
-                              </ul>
-                            </div>
-                          </div>
-                          <div>
-                            <div className="category">
-                              <h1 className="text-[13px] font-700 text-qblack uppercase mb-[13px]">
-                                Polular Category
-                              </h1>
-                            </div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {categoryList1}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="thumbnail w-[348px] h-full">
-                          <div className="w-full h-[235px]">
-                            <img
-                              width=""
-                              src={`${
-                                import.meta.env.VITE_PUBLIC_URL
-                              }/src/assets/images/mega-menu-thumb.jpg`}
-                              alt=""
-                              className="w-full h-full object-contain"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </li>
                   <li className="relative">
                     <span className="flex items-center text-sm text-white font-600 cursor-pointer ">
