@@ -62,9 +62,6 @@ export default function Middlebar({ className }) {
                     15
                   </span>
                 </div>
-                {/* <div className="fixed left-0 top-0 w-full h-full z-40"></div> */}
-                {/* hidden group-hover:block" */}
-                <Cart className="absolute -right-[45px] top-11 z-50 hidden group-hover:block" />
               </div>
               <div>
                 <a to="/profile">
