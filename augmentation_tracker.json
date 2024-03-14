@@ -205,6 +205,8 @@
       "description": "a footer with a flex container"
     }
   },
-  "sizing_updates": [".."],
+  "sizing_updates": [
+    "Featured products product-card-img w-full h-[220px] mt-4 is resized"
+  ],
   "screen_and_layout_augmentations": [""]
 }
