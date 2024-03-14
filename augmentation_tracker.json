@@ -205,6 +205,9 @@
       "description": "a footer with a flex container"
     }
   },
+  "functionality": [
+    "w-fit text-xs leading-6 text-qblack font-500 functionality is removed"
+  ],
   "sizing_updates": [".."],
   "screen_and_layout_augmentations": [""]
 }
