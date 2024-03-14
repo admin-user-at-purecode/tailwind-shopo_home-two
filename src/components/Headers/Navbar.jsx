@@ -16,9 +16,7 @@ export default function Navbar({ className }) {
   // if (categoryToggle && getItems > 0) {
   //   setSize(`${40 * getItems}px`);
   // }
-  const handler = () => {
-    setToggle(!categoryToggle);
-  };
+
   useEffect(() => {
     if (categoryToggle) {
       const getItems = document.querySelectorAll(`.categories-list li`).length;
@@ -105,7 +103,7 @@ export default function Navbar({ className }) {
             <div className="category-and-nav flex xl:space-x-7 space-x-3 items-center">
               <div className="category w-[270px] h-[53px] bg-white px-5 rounded-t-md mt-[6px] relative">
                 <button
-                  onClick={handler}
+                  onClick={"handler"}
                   type="button"
                   className="w-full h-full flex justify-between items-center"
                 >
@@ -139,7 +137,7 @@ export default function Navbar({ className }) {
                 {categoryToggle && (
                   <div
                     className="fixed top-0 left-0 w-full h-full -z-10"
-                    onClick={handler}
+                    onClick={"handler"}
                   ></div>
                 )}
                 <div
