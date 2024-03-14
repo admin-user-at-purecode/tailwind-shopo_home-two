@@ -5,7 +5,7 @@ export default function CampaignCountDown({ className, lastDate }) {
 
   return (
     <div>
-      <div className={`w-full lg:h-[460px] ${className || ""}`}>
+      <div className={`w-full lg:h-[550px] ${className || ""}`}>
         <div className="container-x mx-auto h-full">
           <div className="items-center h-full">
             <div
