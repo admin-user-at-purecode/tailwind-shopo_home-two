@@ -63,7 +63,9 @@ export default function TopBar({ className }) {
                   <Arrow className="fill-current qblack" />
                 </div>
                 <div className="language-select flex space-x-1 items-center">
-                  <Selectbox className="w-fit" datas={["Bangla", "english"]} />
+                  <span className="w-fit text-xs leading-6 text-qblack font-500 Bangla">
+                    Bangla
+                  </span>
                   <Arrow className="fill-current qblack" />
                 </div>
               </div>
