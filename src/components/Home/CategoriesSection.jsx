@@ -8,7 +8,7 @@ export default function CategoriesSection() {
             <div className="grid xl:grid-cols-8 sm:grid-cols-4 grid-cols-2 gap-10 mb-[46px]">
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -20,7 +20,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -32,7 +32,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -44,7 +44,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -68,7 +68,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export default function CategoriesSection() {
             <div className="grid xl:grid-cols-8 sm:grid-cols-4 grid-cols-2 gap-10">
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export default function CategoriesSection() {
               </div>
               <div className="item w-full group cursor-pointer">
                 <div className="w-full flex justify-center">
-                  <div className="w-[110px] h-[110px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
+                  <div className="w-[150px] h-[150px] rounded-full bg-[#EEF1F1] group-hover:bg-qh2-green mb-2.5 flex justify-center items-center">
                     <Sofa />
                   </div>
                 </div>
