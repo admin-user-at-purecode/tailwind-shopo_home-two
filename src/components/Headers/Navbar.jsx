@@ -166,17 +166,7 @@ export default function Navbar({ className }) {
                         style={{
                           boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
                         }}
-                      >
-                        <div className="categories-wrapper w-full h-full p-5">
-                          <div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {homeLinksList}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      ></div>
                     </div>
                   </li>
                   <li>

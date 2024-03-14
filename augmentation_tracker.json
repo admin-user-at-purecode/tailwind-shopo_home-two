@@ -205,6 +205,9 @@
       "description": "a footer with a flex container"
     }
   },
+  "functionality": [
+    "categories-wrapper w-full h-full p-5 Homepage functionality is removed"
+  ],
   "sizing_updates": [".."],
   "screen_and_layout_augmentations": [""]
 }
