@@ -19,7 +19,7 @@ export default function Banner({ className }) {
                         import.meta.env.VITE_PUBLIC_URL
                       }/src/assets/images/banner-2.1.png`}
                       alt=""
-                      className="w-full max-w-full h-auto object-cover"
+                      className="w-[500px] max-w-full h-auto object-cover"
                     />
                   </picture>
                 </a>
