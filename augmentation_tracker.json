@@ -206,7 +206,7 @@
     }
   },
   "sizing_updates": [
-    "below Top Selling Products items-center w-[1000px]  overflow-hidden ProductAds width size is resized"
+    "below NewArrivals items-center w-[1000px]  overflow-hidden ProductAds width size is resized"
   ],
   "screen_and_layout_augmentations": [""]
 }
