@@ -205,6 +205,6 @@
       "description": "a footer with a flex container"
     }
   },
-  "sizing_updates": [".."],
+  "sizing_updates": ["discount-banner w-full h-[500px] height is resized"],
   "screen_and_layout_augmentations": [""]
 }
