@@ -34,6 +34,27 @@ export default function TopBar({ className }) {
                     </span>
                   </a>
                 </li>
+                <li>
+                  <a to="/">
+                    <span className="text-xs leading-6 text-qblack font-500">
+                      Account
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a to="/tracking-order">
+                    <span className="text-xs leading-6 text-qblack font-500">
+                      Track Order
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a to="/faq">
+                    <span className="text-xs leading-6 text-qblack font-500">
+                      Support
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="topbar-dropdowns sm:block hidden">
