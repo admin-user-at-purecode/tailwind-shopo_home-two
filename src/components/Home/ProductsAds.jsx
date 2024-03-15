@@ -4,14 +4,14 @@ export default function ProductsAds({
   sectionHeight,
 }) {
   return (
-    <div className={`w-full ${className || ""}`}>
+    <div className={`w-[full] ${className || ""}`}>
       <div className="container-x mx-auto">
         <div
           className={`${sectionHeight} ${
             ads.length > 1 && ads.length <= 2
               ? "sm:flex xl:space-x-[30px] sm:space-x-5"
               : ""
-          } items-center w-full  overflow-hidden`}
+          } items-center w-[1000px]  overflow-hidden`}
         >
           <div
             data-aos="fade-right"
