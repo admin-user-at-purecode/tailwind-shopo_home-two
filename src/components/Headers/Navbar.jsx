@@ -179,6 +179,34 @@ export default function Navbar({ className }) {
                       </div>
                     </div>
                   </li>
+                  <li className="relative">
+                    <a to="/">
+                      <span className="flex items-center text-sm text-white font-600 cursor-pointer ">
+                        <span>Homepage</span>
+                        <span className="ml-1.5 ">
+                          <Arrow className="fill-current" />
+                        </span>
+                      </span>
+                    </a>
+                    <div className="sub-menu w-[220px] absolute left-0 top-[60px]">
+                      <div
+                        className="w-full bg-white flex justify-between items-center "
+                        style={{
+                          boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
+                        }}
+                      >
+                        <div className="categories-wrapper w-full h-full p-5">
+                          <div>
+                            <div className="category-items">
+                              <ul className="flex flex-col space-y-2">
+                                {homeLinksList}
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                   <li>
                     <span className="flex items-center text-sm text-white font-600 cursor-pointer ">
                       <span>Shop</span>
