@@ -12,8 +12,8 @@ export default function Footer() {
             <div className="mb-14">
               <a to="/">
                 <img
-                  width="152"
-                  height="36"
+                  width="100"
+                  height="20"
                   src={`${
                     import.meta.env.VITE_PUBLIC_URL
                   }/src/assets/images/logo-2.svg`}
