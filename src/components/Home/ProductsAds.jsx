@@ -11,7 +11,7 @@ export default function ProductsAds({
             ads.length > 1 && ads.length <= 2
               ? "sm:flex xl:space-x-[30px] sm:space-x-5"
               : ""
-          } items-center w-full  overflow-hidden`}
+          } items-center w-[500px]  overflow-hidden`}
         >
           <div
             data-aos="fade-right"
