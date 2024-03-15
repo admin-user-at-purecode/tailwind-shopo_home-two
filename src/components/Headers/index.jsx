@@ -1,6 +1,6 @@
 import ThinBag from "../svg/Star";
 import Middlebar from "./Middlebar";
-import Navbar from "./Navbar";
+
 import TopBar from "./TopBar";
 
 export default function HeaderTwo({ className, drawerAction }) {
@@ -50,7 +50,6 @@ export default function HeaderTwo({ className, drawerAction }) {
           </div>
         </div>
       </div>
-      <Navbar className="quomodo-shop-nav-bar lg:block hidden" />
     </header>
   );
 }
