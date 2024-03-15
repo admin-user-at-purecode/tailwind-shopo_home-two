@@ -206,5 +206,5 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["MiddleBar is swapped with Nabar"]
 }
