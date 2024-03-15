@@ -8,7 +8,6 @@
     "Middlebar",
     "SearchBox",
     "SelectBox",
-    "Navbar",
     "Drawer",
     "Banner",
     "BestSeller",
@@ -73,29 +72,6 @@
         }
       },
       "children_orientation_description": "a middlebar is a middlebar , all arranged in a flex format"
-    },
-    "navbar": {
-      "count": 1,
-      "location": "below the Middlebar",
-      "description": "a flex container",
-      "children": {
-        "Allcategories": {
-          "count": 1,
-          "location": "left side in the navbar",
-          "description": "a list of all the categories"
-        },
-        "nav-wrapper": {
-          "count": 1,
-          "location": "middle of the page",
-          "description": "a flex container"
-        },
-        "become-seller-btn": {
-          "count": 1,
-          "location": "right side of the navbar",
-          "description": "a button"
-        }
-      },
-      "children_orientation_description": "navbar is navbar, all arranged in a flex format"
     },
     "home": {
       "count": 1,
