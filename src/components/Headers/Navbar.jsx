@@ -307,6 +307,16 @@ export default function Navbar({ className }) {
                 </div>
               </a>
             </div>
+            <div className="become-seller-btn  w-[161px] h-[40px]">
+              <a to="/become-saller">
+                <div className="yellow-btn flex justify-center items-center cursor-pointer">
+                  <div className="flex space-x-2 items-center">
+                    <span className="text-sm font-600">Become a Seller</span>
+                    <Arrow />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

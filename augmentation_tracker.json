@@ -206,5 +206,7 @@
     }
   },
   "sizing_updates": [".."],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": [
+    "become-seller-btn  w-[161px] h-[40px] added extra button inside Navbar"
+  ]
 }
