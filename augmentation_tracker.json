@@ -33,24 +33,6 @@
   ],
 
   "component_information": {
-    "TopBar": {
-      "count": 1,
-      "location": "top of the page",
-      "description": "a text with a flex container",
-      "children": {
-        "topbar-nav": {
-          "count": 3,
-          "location": "left side in the topbar",
-          "description": "a text of list items on the left side of the topbar with a flex container"
-        },
-        "SelectBox": {
-          "count": 3,
-          "location": "right side in the topbar",
-          "description": "selectboxes with flex container"
-        }
-      },
-      "children_orientation_description": "heading is a text, topbar is a topbar --  all arranged in a flex format"
-    },
     "Middlebar": {
       "count": 1,
       "location": "below the topbar",
@@ -73,6 +55,24 @@
         }
       },
       "children_orientation_description": "a middlebar is a middlebar , all arranged in a flex format"
+    },
+    "TopBar": {
+      "count": 1,
+      "location": "top of the page",
+      "description": "a text with a flex container",
+      "children": {
+        "topbar-nav": {
+          "count": 3,
+          "location": "left side in the topbar",
+          "description": "a text of list items on the left side of the topbar with a flex container"
+        },
+        "SelectBox": {
+          "count": 3,
+          "location": "right side in the topbar",
+          "description": "selectboxes with flex container"
+        }
+      },
+      "children_orientation_description": "heading is a text, topbar is a topbar --  all arranged in a flex format"
     },
     "navbar": {
       "count": 1,
@@ -205,6 +205,6 @@
       "description": "a footer with a flex container"
     }
   },
-  "sizing_updates": [".."],
+  "sizing_updates": ["Topbar is swapped with Middlebar"],
   "screen_and_layout_augmentations": [""]
 }
